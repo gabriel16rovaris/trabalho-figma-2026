@@ -1,0 +1,48 @@
+body {
+    background-color: #26c2b9;
+    font-family: sans-serif;
+    color: white;
+    margin: 0;
+    padding: 20px;
+}
+
+.header-content h1 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
+.product-showcase {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+    flex-wrap: wrap; 
+}
+
+
+.images img {
+    width: 250px; 
+    border-radius: 15px;
+}
+
+.texto {
+    background-color: #005a9c; 
+    padding: 40px;
+    border-radius: 50px; 
+    max-width: 400px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.texto p {
+    margin: 10px 0;
+}
+
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
